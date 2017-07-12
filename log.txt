@@ -1,0 +1,5 @@
+[Error] SQLSTATE[HY000] [1045] Access denied for user 'anaf'@'localhost' (using password: YES)
+[Error] SQLSTATE[HY000] [1045] Access denied for user 'anaf'@'localhost' (using password: YES)
+[Error] SQLSTATE[HY000] [1045] Access denied for user 'anaf'@'localhost' (using password: YES)
+[Error] SQLSTATE[HY000] [1045] Access denied for user 'anaf'@'localhost' (using password: YES)
+[Error] SQLSTATE[HY000] [1045] Access denied for user 'anaf'@'localhost' (using password: YES)

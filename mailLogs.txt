@@ -1,0 +1,4 @@
+0000000000000 este suspect!<br> <a href="http://localhost/anaf/solved.php?cnp=0000000000000&email_analist=cod.armi@gmail.com">Am rezolvat problema!</a>
+1990920460051 este suspect!<br> <a href="http://localhost/anaf/solved.php?cnp=1990920460051&email_analist=cod.armi@gmail.com">Am rezolvat problema!</a>
+19909204752 este suspect!<br> <a href="http://localhost/anaf/solved.php?cnp=19909204752&email_analist=cod.armi@gmail.com">Am rezolvat problema!</a>
+19909204752 este suspect!<br> <a href="http://localhost/anaf/solved.php?cnp=19909204752&email_analist=cod.armi@gmail.com">Am rezolvat problema!</a>

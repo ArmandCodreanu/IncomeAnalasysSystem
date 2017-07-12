@@ -1,0 +1,185 @@
+/*TOOLS*/
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*LANDING AREA*/
+.landing-handler {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("../img/guvern.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*SIDEBAR MENU*/
+.open-menu, .close-menu{
+    position: absolute;
+    z-index: 5;
+    font-family: 'Verdana';
+    font-size: 12px;
+    padding: 4px;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.sidebar-menu {
+    width: 240px;
+    height: 100%;
+    background-color: #59788D;
+    position: relative;
+    padding-top: 34px;
+    box-sizing: border-box;
+    border-right: 6px solid #0B1171;
+    box-shadow: 0px 0px 10px #000;
+    right: 240px;
+}
+
+.logo-handler {
+    width: 100%;
+}
+
+.logo-handler .logo {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.menu-handler {
+    width: 100%;
+    margin-top: 34px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li a:link, .nav li a:visited {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    background: #0B1171;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    font-family: 'Verdana';
+    font-size: 12px;
+}
+
+.nav li a:hover, .nav li a:active {
+    background-color: #59788D;
+}
+
+.motto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 140px;
+    background: rgba(0,0,0,.0);
+    text-align: center;
+    color: #fff;
+    font-family: 'Verdana';
+    font-weight: bold;
+    padding: 32px 0px;
+    box-sizing: border-box;
+    font-size: 42px;
+    line-height: 60px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.yellow {
+    color: yellow;
+    font-weight: bold;
+}
+
+.blue {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.scroll-button:link, .scroll-button:visited {
+    font-size: 24px;
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.scroll-button:hover, .scroll-button:active {
+    text-decoration: overline;
+} 
+
+/*PAGE ONE*/
+
+.one-handler {
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.title-handler {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.title-handler img {
+    height: 44px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-family: 'Verdana';
+    font-weight: bold;
+}
+
+.line-separator {
+    margin: auto;
+    height: 2px;
+    width: 60px;
+    margin-top: 6px;
+    background: #777;
+}
+
+.content-handler {
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+/*PAGE TWO*/
+
+.two-handler {
+    background: #0B1171;
+    color: #fff;
+}
+/*FOOTER*/
+.footer {
+    padding: 14px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Verdana';
+}

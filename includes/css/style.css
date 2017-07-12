@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.log-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    height: 340px;
+    display: block;
+    margin: auto;
+}
+
+.form-div {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.login {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.login input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    color: #0048ff;
+    border: 0;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.login input:last-child {
+    margin-top: 16px;
+    color: #000;
+    font-weight: normal;
+    position: relative;
+}
+
+.login input:last-child:hover, .login input:last-child:hover{
+    top: 1px;
+}    
+
+.institutie {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Verdana';
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    background: #753b49;
+}
+
+.header img {
+    height: 100px;
+    padding: 10px 0px;
+    margin-left: 100px;
+}
+
+.header a {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.float {
+    float: left;
+    margin-top: 150px;
+}
+
+.formular {
+    box-sizing: border-box;
+    border: 2px solid #753b49;
+    padding: 20px;
+    margin-left: 100px;
+    background: #cb8495;
+}
+
+.formular input {
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    color: #0048ff;
+    border: 0;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.shown {
+    position: absolute;
+    top: 260px;
+}
+
+.titlu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Verdana';
+    text-decoration: overline;
+}
+
+.descriere {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    border: 2px solid #753b49;
+    background: #cb8495;
+    width: 300px;
+    padding: 18px;
+    font-family: 'Verdana';
+    text-align: justify;
+}
+
+.instructiuni{
+    font-weight: bold;
+}
+
+.content {
+    top: 160px;
+    left: 60px;
+    background: #FF99C9;
+    border: 2px solid #753b49;
+    padding: 18px;
+    font-family: 'Verdana';
+    text-align: justify;
+}
+.content a {
+    display: block;
+    width: 150px;
+    border: 2px dashed #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+}
+
+.content a:hover {
+    border: 2px solid #000;    
+}
+
+.formular select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 2px;
+}

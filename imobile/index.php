@@ -1,0 +1,53 @@
+<?php require_once("inc/index1.php"); ?>
+<link rel="stylesheet" href="../includes/css/style.css">
+<style>
+    .header {
+        background: #1E555C;
+    }
+    
+    .descriere {
+        background: #41949f;
+    }
+    
+    .formular {
+        background: #41949f;
+        top: 150px;
+    }
+    
+    .formular textarea {
+        width: 100%;
+        border: 0;
+        margin-bottom: 2px;
+        resize: vertical;
+        padding: 8px;
+        font-weight: bold;
+        color: #0048ff;
+    }
+</style>
+<form class="formular shown">
+
+Atribuie o locuinta<br>
+    <input type="text" name="cnp" placeholder="CNP" onkeypress='return event.charCode >= 48 && event.charCode <= 57'><br>
+    <input type="text" name="valoare" placeholder="Valoare estimata"><br>
+    <input type="text" name="nr_cadastral" placeholder="Nr. cadastral"><br>
+    <textarea name="adresa" placeholder="Adresa"></textarea><br>
+    <input type="text" name="castiguri" placeholder="Venituri anuale (0)"><br>
+    <input type="submit" name="sub" value="Atribuie">
+</form>
+<div class="header">
+    <img src="../includes/img/logo.png" alt="">
+    <div class="titlu">
+        IMOBILE
+    </div>
+    <a href="logout.php">Log out</a>
+</div>
+<div class="descriere">
+   <span class="instructiuni">Instructiuni</span><br>
+    Sunteti logat ca utilizator al IMOBILE in reteaua <strong>Income Analasys System</strong>.
+    <ol style="margin-top:20px;padding-left:20px;">
+       <li>Completati formularul</li> 
+       <li>Daca <strong>NU EXISTA</strong> venituri introduceti "0"</li>    
+    </ol>
+</div>
+<script src="../includes/js/jquery-3.2.1.min.js"></script>
+<script src="../includes/js/script.js"></script>
